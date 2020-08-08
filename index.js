@@ -1,4 +1,4 @@
-import numberToWords from './numberToWords';
-import amountToWords from './amountToWords';
+const numberToWords = require('./numberToWords');
+const amountToWords = require('./amountToWords');
 
-module.export = [numberToWords, amountToWords]
+module.exports = { numberToWords, amountToWords }

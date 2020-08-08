@@ -27,4 +27,4 @@ const numberToWords = (input) => {
     return amountInWords.trim();
 }
 
-module.export = numberToWords;
+module.exports = numberToWords;
