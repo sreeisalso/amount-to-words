@@ -5,7 +5,7 @@ A simple module to convert numbers and/or amount to words for South Asian number
 # Install (npm)
 
 ```javascript
-npm install num-words
+npm install amount-to-words
 ```
 
 # Example (javascript/nodejs)
@@ -13,9 +13,10 @@ npm install num-words
 ```javascript
 import {numberToWords} from 'amount-to-words'
 ...
-console.log(numberToWords(1));
+console.log(numberToWords(number));
 ...
 // Sample Out Put
+// number
 // 1          ->  One
 // 92         ->  Ninety Two
 // 123        ->  One Hundred And Twenty Three
@@ -28,7 +29,7 @@ console.log(numberToWords(1));
 ```javascript
 import {amountToWords} from 'amount-to-words'
 ...
-console.log(amountToWords(1.1,2));
+console.log(amountToWords(amount,decimalPlaces));
 ...
 // Sample Out Put
 // amount    decimalPlaces
@@ -39,7 +40,11 @@ console.log(amountToWords(1.1,2));
 
 ```
 
-_Note: This module only supports 9 digits input. A typical use case for such conversion is in tax invoices or charts etc. For that more than 9 digits input is not very common (and also not very readable)._
+---
+
+***NOTE:*** _This module only supports 9 digits input. A typical use case for such conversion is in tax invoices or charts etc. For that more than 9 digits input is not very common._
+
+---
 
 # Contributing
 
