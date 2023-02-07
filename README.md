@@ -1,17 +1,17 @@
-#amount-to-words (Amount to Words)
+# amount-to-words (Amount to Words)
 
 A simple module to convert numbers and/or amount to words for South Asian numbering system. e.g. Nine crore Eight lakh
 
-# Install (npm)
+## Install (npm)
 
 ```javascript
 npm install amount-to-words
 ```
 
-# Example (javascript/nodejs)
+## Example (javascript/nodejs)
 
 ```javascript
-import {numberToWords} from 'amount-to-words'
+import { numberToWords } from "amount-to-words";
 ...
 console.log(numberToWords(number));
 ...
@@ -27,7 +27,7 @@ console.log(numberToWords(number));
 ```
 
 ```javascript
-import {amountToWords} from 'amount-to-words'
+import { amountToWords } from "amount-to-words";
 ...
 console.log(amountToWords(amount,decimalPlaces));
 ...
@@ -42,10 +42,10 @@ console.log(amountToWords(amount,decimalPlaces));
 
 ---
 
-***NOTE:*** _This module only supports 9 digits input. A typical use case for such conversion is in tax invoices or charts etc. For that more than 9 digits input is not very common._
+**_NOTE:_** _This module only supports 9 digits input. A typical use case for such conversion is in tax invoices or charts etc. For that more than 9 digits input is not very common._
 
 ---
 
-# Contributing
+## Contributing
 
 In case you notice a bug, please open an issue mentioning the input that has caused an incorrect conversion.
