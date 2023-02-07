@@ -1,10 +1,10 @@
 {
   "name": "amount-to-words",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Convert given amount/number into equivalent words",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/sreeisalso/amount-to-words#readme",
   "devDependencies": {
-    "jest": "^26.2.2"
+    "vitest": "^0.28.4"
   }
 }
