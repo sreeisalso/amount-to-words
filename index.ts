@@ -1,2 +1,1 @@
-export { numberToWords } from "./numberToWords";
-export { amountToWords } from "./amountToWords";
+export { numberToWords, amountToWords } from "./dist/main";
