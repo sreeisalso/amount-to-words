@@ -26,6 +26,9 @@
   "homepage": "https://github.com/sreeisalso/amount-to-words#readme",
   "devDependencies": {
     "@vitest/coverage-c8": "^0.28.4",
+    "terser": "^5.17.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
     "vitest": "^0.28.4"
   }
 }
