@@ -1,6 +1,6 @@
 {
   "name": "amount-to-words",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Convert given amount/number into equivalent words",
   "main": "index.ts",
   "scripts": {
