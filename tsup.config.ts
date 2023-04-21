@@ -8,5 +8,5 @@ export default defineConfig({
   treeshake: "recommended",
   clean: true,
   minify: "terser",
-  target: ["node16" , "es6"],
+  target: ["node16", "es6"],
 });
