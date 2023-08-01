@@ -1,10 +1,12 @@
 {
   "name": "amount-to-words",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Convert given amount/number into equivalent words",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "test": "vitest",
+    "test:run": "vitest run",
     "coverage": "vitest run --coverage"
   },
   "repository": {
@@ -25,10 +27,11 @@
   },
   "homepage": "https://github.com/sreeisalso/amount-to-words#readme",
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.28.4",
-    "terser": "^5.17.1",
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4",
-    "vitest": "^0.28.4"
+    "@vitest/coverage-v8": "^0.33.0",
+    "terser": "^5.19.2",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7",
+    "vitest": "^0.33.0"
   }
 }

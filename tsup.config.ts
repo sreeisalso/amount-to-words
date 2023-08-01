@@ -2,11 +2,12 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   entry: ["main.ts"],
-  splitting: false,
+  splitting: true,
+  format: ["esm"],
   sourcemap: true,
   dts: true,
-  treeshake: "recommended",
+  treeshake: "smallest",
   clean: true,
   minify: "terser",
-  target: ["node16", "es6"],
+  target: ["node18", "es6"],
 });
