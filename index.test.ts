@@ -29,7 +29,7 @@ test("1234567890", () => {
 
 test("123456789", () => {
   expect(numberToWords(123456789)).toBe(
-    "Twelve Crore Thirty Four Lakh Fifty Six Thousand Seven Hundred Eighty Nine"
+    "Twelve Crore Thirty Four Lakh Fifty Six Thousand Seven Hundred Eighty Nine",
   );
 });
 
@@ -47,42 +47,40 @@ test("1234567890", () => {
 
 test("010203405", () => {
   expect(numberToWords(10203405)).toBe(
-    "One Crore Two Lakh Three Thousand Four Hundred Five"
+    "One Crore Two Lakh Three Thousand Four Hundred Five",
   );
 });
 
 test("060708910", () => {
   expect(numberToWords("060708910")).toBe(
-    "Six Crore Seven Lakh Eight Thousand Nine Hundred Ten"
+    "Six Crore Seven Lakh Eight Thousand Nine Hundred Ten",
   );
 });
 
 test("111213914", () => {
   expect(numberToWords(111213914)).toBe(
-    "Eleven Crore Twelve Lakh Thirteen Thousand Nine Hundred Fourteen"
+    "Eleven Crore Twelve Lakh Thirteen Thousand Nine Hundred Fourteen",
   );
 });
 
 test("151617918", () => {
   expect(numberToWords(151617918)).toBe(
-    "Fifteen Crore Sixteen Lakh Seventeen Thousand Nine Hundred Eighteen"
+    "Fifteen Crore Sixteen Lakh Seventeen Thousand Nine Hundred Eighteen",
   );
 });
 
 test("192030140", () => {
   expect(numberToWords(192030140)).toBe(
-    "Nineteen Crore Twenty Lakh Thirty Thousand One Hundred Forty"
+    "Nineteen Crore Twenty Lakh Thirty Thousand One Hundred Forty",
   );
 });
 
 test("506070180", () => {
   expect(numberToWords(506070180)).toBe(
-    "Fifty Crore Sixty Lakh Seventy Thousand One Hundred Eighty"
+    "Fifty Crore Sixty Lakh Seventy Thousand One Hundred Eighty",
   );
 });
 
 test("900000000", () => {
-  expect(numberToWords(900000000)).toBe(
-    "Ninety Crore"
-  );
+  expect(numberToWords(900000000)).toBe("Ninety Crore");
 });

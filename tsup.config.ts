@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["main.ts"],
+  entry: ["amountToWords.ts", "numberToWords.ts"],
   splitting: true,
   format: ["esm"],
   sourcemap: true,
